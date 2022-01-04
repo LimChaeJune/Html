@@ -1,0 +1,42 @@
+@use '_reset.scss';
+ul {
+  width: 200px;
+  padding: 0;
+}
+
+ul li {
+  list-style-type: none;
+  background-color: #eee;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+ul li:active {
+  background-color: #007BFF;
+  color: #eee;
+}
+
+.alert-green {
+  width: 500px;
+  background-color: #DFF0D8;
+  color: #4D918D;
+  padding: 5px;
+  margin: 5px;
+}
+
+.alert-blue {
+  width: 500px;
+  background-color: #D9EDF7;
+  color: #4D918D;
+  padding: 5px;
+  margin: 5px;
+}
+
+.alert-yello {
+  width: 500px;
+  background-color: #FCF8E3;
+  color: #4D918D;
+  padding: 5px;
+  margin: 5px;
+}
+/*# sourceMappingURL=test.css.map */

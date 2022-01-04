@@ -1,0 +1,44 @@
+.ani-text{
+    text-align: center;
+}
+
+.ani-text:hover{    
+    animation-name: tt;
+    animation-duration: 1s;
+}
+
+@keyframes tt{
+    0% {
+        transform:translateX(0px);
+    }
+    50% {
+        transform:translateX(-10px);
+    }
+    75%{
+        transform:translateX(10px);
+    }
+    100% {
+        transform:translateX(0px);
+    }
+}
+.btn{
+    width: 100px;    
+    height: 30px;    
+}
+.btn-shakit{
+    text-align: center;
+    color: white;
+    background-color: skyblue;
+}
+.btn-shakit:hover{
+    animation-name: shakit;
+    animation-duration: 1s;
+}
+
+@keyframes shakit {
+    0% { transform: rotate(0deg)}
+    25% { transform: rotate(-8deg)}
+    50% { transform: rotate(8deg)}
+    75% { transform: rotate(-8deg)}
+    100% { transform: rotate(0deg)}
+}

@@ -1,0 +1,36 @@
+@use '_reset.scss';
+
+$active-color:#007BFF;
+$default-white:#eee;
+ul {    
+    width: 200px;
+    padding: 0;
+    li{
+        list-style-type: none;
+        background-color: $default-white;        
+        padding: 15px;  
+        border: 1px solid black;      
+    }   
+    li:active{
+        background-color: $active-color;
+        color: $default-white;
+    }
+}
+
+@mixin alert($background) {
+    width: 500px;    
+    background-color: $background;
+    color: #4D918D;
+    padding: 5px;
+    margin: 5px;
+}
+
+.alert-green{
+    @include alert(#DFF0D8)
+}
+.alert-blue{
+    @include alert(#D9EDF7)
+}
+.alert-yello{
+    @include alert(#FCF8E3)
+}
